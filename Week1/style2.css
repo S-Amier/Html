@@ -1,0 +1,46 @@
+h1, h2{
+    color: #00960b;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.main-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.author-text{
+    font-size: 22px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1140px;
+    margin: 20px, auto, 0, auto;
+}
+
+.blog-post{
+    background-color: #00f;
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+}
+
+.other-posts{
+    background-color: #0f0;
+    width: 25%;
+    float: left;
+}
+
+.author-box{
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+}
