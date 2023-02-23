@@ -1,6 +1,12 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
 h1{
     color: green;
     font-size: 50px;
@@ -10,7 +16,7 @@ h6{
 }
 p{
     font-size: 18px;
-    text-align: justify;
+    
     color: blue ;
 }
 .links{
@@ -28,16 +34,38 @@ h6{
 }
 
 .tijger3box{
-    border: 10px solid #00f;
+    border: 10px solid #000;
+    float: left;
 }
+
 .tijger3box img{
-    height: 300px;
+    height: 375px;
     width: 300px;
     padding: 125px;
     border: 10px;
-    float: left;
     color: 0ff;
 }
+
 .tijger3text{
     float: right;
+    color: green;
+}
+
+.tekstO{
+    float: left;
+}
+.Tijgerzin1{
+    color: green;
+}
+.Tijgerzin2{
+    color: green;
+}
+.author-box{
+    padding-top: 20px;
+    border-top: 1px solid #808080;
+}
+.author-text{
+    color: green;
+}.herder-text{
+    color: green;
 }
