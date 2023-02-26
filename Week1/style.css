@@ -85,55 +85,46 @@ h6{
     margin: 20px auto 0 auto;
 }
 .Box1{
-    margin: 100,50,0,50;
     padding: auto;
     background-color: yellow;
     float: left;
 }
 .Box2{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: red;
     float: center;
 }
 .Box3{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: blue;
     float: right;
 }
 .Box4{
-    margin: 100,50,100,50;
     padding: 20 auto 20 auto;
     background-color: green;
     float: left;
 }
 .Box5{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: white;
     float: center;
 }
 .Box6{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: purple;
     float: right;
 }
 .Box7{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: grey;
     float: left;
 }
 .Box8{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: pink;
     float: center;
 }
 .Box9{
-    margin: 100,50,100,50;
     padding: auto;
     background-color: orange;
     float: right;
