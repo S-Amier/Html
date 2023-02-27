@@ -85,47 +85,72 @@ h6{
     margin: 20px auto 0 auto;
 }
 .Box1{
-    padding: auto;
+    height: 150px;
+    width: 380px;
+    text-align: center;
+    margin: auto;
     background-color: yellow;
     float: left;
 }
 .Box2{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: auto;
     background-color: red;
-    float: center;
+    float: left;
 }
 .Box3{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: auto;
     background-color: blue;
-    float: right;
+    float: left;
 }
 .Box4{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: 20 auto 20 auto;
     background-color: green;
     float: left;
 }
 .Box5{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: auto;
     background-color: white;
-    float: center;
+    float: left;
 }
 .Box6{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: auto;
     background-color: purple;
-    float: right;
+    float: left;
 }
 .Box7{
+    height: 150px;
+    width: 380px;
+    text-align: center;
     padding: auto;
     background-color: grey;
     float: left;
 }
 .Box8{
-    padding: auto;
+    height: 150px;
+    width: 380px;
+    text-align: center;
     background-color: pink;
-    float: center;
+    float: left;
 }
 .Box9{
-    padding: auto;
+    height: 150px;
+    width: 380px;
+    text-align: center;
     background-color: orange;
     float: right;
 }
