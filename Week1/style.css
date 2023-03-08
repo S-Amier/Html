@@ -112,23 +112,22 @@ h6{
     height: 150px;
     width: 380px;
     text-align: center;
-    padding: 20 auto 20 auto;
-    background-color: green;
+    padding: auto;
+    background-color: rgba(0, 128, 0, 0.6);
     float: left;
 }
 .Box5{
     height: 150px;
     width: 380px;
     text-align: center;
-    padding: auto;
-    background-color: white;
+    background-color: rgba(0, 128, 0, 0.6);;
     float: left;
+    position: relative;
 }
 .Box6{
     height: 150px;
     width: 380px;
     text-align: center;
-    padding: auto;
     background-color: purple;
     float: left;
 }
@@ -136,7 +135,6 @@ h6{
     height: 150px;
     width: 380px;
     text-align: center;
-    padding: auto;
     background-color: grey;
     float: left;
 }
@@ -152,5 +150,17 @@ h6{
     width: 380px;
     text-align: center;
     background-color: orange;
-    float: right;
+    float: left;
+}
+.Five2{
+    position: absolute;
+    padding-left: 145px;
+}
+.Five1{
+    position: center;
+    padding-top: 40px;
+
+}
+.Five3{
+    position: center;
 }
