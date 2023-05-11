@@ -1,0 +1,45 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+  border: 1px solid lightgray;
+}
+
+.item--last {
+  grid-column-start: 1;
+  grid-column-end: -1;
+}
+
+@media (min-width: 700px) {
+  .container {
+    grid-template-columns: 2fr;
+  }
+}
+
+@media (min-width: 500px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.navgreen {
+  background-color: green;
+}
+
+.navyellow {
+  background-color: yellow;
+}
+
+.navred {
+  background-color: red;
+}
+
+.navblue {
+  background-color: blue;
+}
+
+.seperate {
+  align-self: flex-end;
+}

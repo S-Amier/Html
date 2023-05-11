@@ -1,0 +1,45 @@
+.grid-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.container {
+  display: flex;
+}
+
+.container:nth-child(2) {
+  flex-direction: column;
+}
+
+.container:nth-child(3) {
+  height: 200px;
+}
+
+.container:nth-child(4) {
+  flex-direction: column;
+}
+
+.container:nth-child(5) {
+  width: 200px;
+}
+
+.container:nth-child(6) {
+  height: 200px;
+}

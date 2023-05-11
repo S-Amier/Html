@@ -1,0 +1,57 @@
+button {
+  margin-right: 10px;
+  height: 25px;
+  width: 30%;
+  border-color: white;
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  flex-direction: row-reverse;
+  left: 5%;
+  right: 5%;
+  border: solid 5px black;
+  flex-grow: 1;
+}
+
+@media (min-width: 500px) {
+  nav {
+    flex-direction: column;
+  }
+  button {
+    width: 100%;
+  }
+}
+@media (min-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+  button {
+    width: 30%;
+  }
+}
+
+.g {
+  width: 92.1%;
+}
+
+.navgreen {
+  background-color: green;
+}
+
+.navyellow {
+  background-color: yellow;
+}
+
+.navred {
+  background-color: red;
+}
+
+.navblue {
+  background-color: blue;
+}
+
+.seperate {
+  align-self: flex-end;
+}

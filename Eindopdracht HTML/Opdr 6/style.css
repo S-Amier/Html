@@ -1,0 +1,40 @@
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 200px 100px 100px 100px;
+  margin-top: 20vh;
+  border: solid black 2px;
+  padding: 10px;
+}
+.a {
+  background-color: blue;
+  grid-column: span 2;
+}
+.b {
+  background-color: green;
+}
+.c {
+  background-color: red;
+  grid-row: span 2;
+}
+.d {
+  background-color: blue;
+  grid-column: span 2;
+}
+.e {
+  background-color: green;
+}
+.f {
+  background-color: red;
+  grid-row-start: 4;
+  grid-column: span 2;
+}
+.g {
+  background-color: blue;
+  grid-row: span 2;
+}
